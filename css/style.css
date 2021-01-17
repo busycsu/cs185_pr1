@@ -41,6 +41,7 @@
 img {
   width: 250%;
 }
+
 .movie-grid
 {
  display: grid;
@@ -48,6 +49,22 @@ img {
  grid-template-rows: repeat(2,150px); /* 2 rows  */
  grid-gap:90px 300px; /* 90 pixels of space added between rows and 350 pixels added between columns  */
 }
-/* video {
-  width: 100%;
+
+/* .table a
+{
+    display:block;
+    text-decoration:none;
 } */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.year{
+  font-size: 13px;
+  text-align: center;
+}
+
+.title{
+  font-size: 13px;
+}
