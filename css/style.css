@@ -31,7 +31,7 @@
   display: grid;
   grid-template-columns: repeat(3,150px);  /* 3 columns */
   grid-template-rows: repeat(2,150px); /* 2 rows  */
-  grid-gap:90px 350px; /* 90 pixels of space added between rows and 350 pixels added between columns  */
+  grid-gap:90px 300px; /* 90 pixels of space added between rows and 350 pixels added between columns  */
 }
 
 .grid-item{
